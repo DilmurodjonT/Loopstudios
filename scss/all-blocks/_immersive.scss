@@ -1,0 +1,26 @@
+.immersive {
+  &__content {
+    max-width: 650px;
+    border: 2px solid $color-FFF;
+    padding: 30px;
+    margin-top: 90px;
+    h1 {
+      color: $color-FFF;
+      font-weight: 300;
+      font-size: 72px;
+      line-height: 70px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .immersive__content h1 {
+    font-size: 34px;
+    line-height: 36px;
+  }
+  .immersive__content {
+    max-width: 327px;
+    padding: 20px;
+  }
+}

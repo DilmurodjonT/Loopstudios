@@ -1,0 +1,12 @@
+.body {
+  background-image: url(./../images/xl-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+@media only screen and (max-width: 768px) {
+  .body {
+    background-image: url(./../images/s-bg.jpg);
+    background-size: cover;
+  }
+}

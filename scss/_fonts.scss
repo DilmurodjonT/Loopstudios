@@ -1,4 +1,19 @@
 @font-face {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  src: url();
+  font-family: 'Josefin Sans';
+  src: url('Fonts/JosefinSans-Light.woff2') format('woff2'),
+      url('Fonts/JosefinSans-Light.woff') format('woff'),
+      url('Fonts/JosefinSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alata';
+  src: url('Fonts/Alata-Regular.woff2') format('woff2'),
+      url('Fonts/Alata-Regular.woff') format('woff'),
+      url('Fonts/Alata-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
